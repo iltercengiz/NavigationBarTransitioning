@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		3606D5651E884CE700A4A1A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3606D5641E884CE700A4A1A0 /* AppDelegate.swift */; };
-		3606D5671E884CE700A4A1A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3606D5661E884CE700A4A1A0 /* ViewController.swift */; };
 		3606D56A1E884CE700A4A1A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3606D5681E884CE700A4A1A0 /* Main.storyboard */; };
 		3606D56C1E884CE700A4A1A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3606D56B1E884CE700A4A1A0 /* Assets.xcassets */; };
 		3606D56F1E884CE700A4A1A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3606D56D1E884CE700A4A1A0 /* LaunchScreen.storyboard */; };
+		3606D5781E88DC4800A4A1A0 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3606D5771E88DC4800A4A1A0 /* NavigationBar.swift */; };
+		3606D57A1E88DC7600A4A1A0 /* NavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3606D5791E88DC7600A4A1A0 /* NavigationItem.swift */; };
+		3606D57C1E88DC8500A4A1A0 /* NavigationBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3606D57B1E88DC8500A4A1A0 /* NavigationBarStyle.swift */; };
+		3606D57E1E88DF1100A4A1A0 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3606D57D1E88DF1100A4A1A0 /* MasterViewController.swift */; };
+		3606D5801E88DF1700A4A1A0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3606D57F1E88DF1700A4A1A0 /* DetailViewController.swift */; };
+		3606D5831E88E94600A4A1A0 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3606D5811E88E80600A4A1A0 /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3606D5611E884CE700A4A1A0 /* NavigationBarTransitioning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarTransitioning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3606D5641E884CE700A4A1A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3606D5661E884CE700A4A1A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3606D5691E884CE700A4A1A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3606D56B1E884CE700A4A1A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3606D56E1E884CE700A4A1A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3606D5701E884CE700A4A1A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3606D5771E88DC4800A4A1A0 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		3606D5791E88DC7600A4A1A0 /* NavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationItem.swift; sourceTree = "<group>"; };
+		3606D57B1E88DC8500A4A1A0 /* NavigationBarStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarStyle.swift; sourceTree = "<group>"; };
+		3606D57D1E88DF1100A4A1A0 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		3606D57F1E88DF1700A4A1A0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3606D5811E88E80600A4A1A0 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,27 @@
 		3606D5631E884CE700A4A1A0 /* NavigationBarTransitioning */ = {
 			isa = PBXGroup;
 			children = (
+				3606D5761E88DC2D00A4A1A0 /* NavigationBar */,
 				3606D5641E884CE700A4A1A0 /* AppDelegate.swift */,
-				3606D5661E884CE700A4A1A0 /* ViewController.swift */,
+				3606D57D1E88DF1100A4A1A0 /* MasterViewController.swift */,
+				3606D57F1E88DF1700A4A1A0 /* DetailViewController.swift */,
 				3606D5681E884CE700A4A1A0 /* Main.storyboard */,
 				3606D56B1E884CE700A4A1A0 /* Assets.xcassets */,
 				3606D56D1E884CE700A4A1A0 /* LaunchScreen.storyboard */,
 				3606D5701E884CE700A4A1A0 /* Info.plist */,
 			);
 			path = NavigationBarTransitioning;
+			sourceTree = "<group>";
+		};
+		3606D5761E88DC2D00A4A1A0 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				3606D5811E88E80600A4A1A0 /* NavigationController.swift */,
+				3606D5771E88DC4800A4A1A0 /* NavigationBar.swift */,
+				3606D5791E88DC7600A4A1A0 /* NavigationItem.swift */,
+				3606D57B1E88DC8500A4A1A0 /* NavigationBarStyle.swift */,
+			);
+			name = NavigationBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3606D5671E884CE700A4A1A0 /* ViewController.swift in Sources */,
+				3606D57C1E88DC8500A4A1A0 /* NavigationBarStyle.swift in Sources */,
+				3606D57E1E88DF1100A4A1A0 /* MasterViewController.swift in Sources */,
 				3606D5651E884CE700A4A1A0 /* AppDelegate.swift in Sources */,
+				3606D57A1E88DC7600A4A1A0 /* NavigationItem.swift in Sources */,
+				3606D5781E88DC4800A4A1A0 /* NavigationBar.swift in Sources */,
+				3606D5831E88E94600A4A1A0 /* NavigationController.swift in Sources */,
+				3606D5801E88DF1700A4A1A0 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
